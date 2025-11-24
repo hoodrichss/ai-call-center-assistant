@@ -81,7 +81,7 @@ The Goal: Transform every junior operator into a Senior Specialist instantly by 
 
 1.  Клонируйте репозиторий:
    
-    git clone https://github.com/YOUR_USERNAME/ai-copilot.git
+    git clone https://github.com/hoodrichss/ai-call-center-assistant.git
     
 2.  Установите зависимости:
    
