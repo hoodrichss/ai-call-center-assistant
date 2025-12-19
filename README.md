@@ -80,19 +80,22 @@ The Goal: Transform every junior operator into a Senior Specialist instantly by 
 ### ⚙️ Установка и запуск прототипа
 
 1.  Клонируйте репозиторий:
+```  
+git clone https://github.com/hoodrichss/ai-call-center-assistant.git
+```
    
-    git clone https://github.com/hoodrichss/ai-call-center-assistant.git
-    
 2.  Установите зависимости:
+```
+   pip install -r requirements.txt
+```
    
-    pip install -r requirements.txt
-    
 3.  API Ключ:
     *   Получите ключ в Google AI Studio.
     *   Создайте файл .env и добавьте: GEMINI_API_KEY=ваш_ключ.
 4.  Запуск:
-   
-    python bot/gui.py
+```
+   python bot/gui.py
+```
     
 ### ⚠️ Важное примечание
 Проект использует API Google Gemini. В РФ для работы требуется VPN.
