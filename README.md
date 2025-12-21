@@ -12,7 +12,7 @@
 ## 🇺🇸 English Version
 
 Next-generation AI Assistant for Support Operators.
-Designed to act as a "Second Brain" for the operator, integrated directly into the CRM interface (Ozon/Bitrix/Custom) via an overlay/extension architecture.
+Designed to act as a "Second Brain" for the operator, integrated directly into the CRM interface (Azone/Bitrix/Custom) via an overlay/extension architecture.
 
 The Goal: Transform every junior operator into a Senior Specialist instantly by providing real-time, context-aware hints and strict compliance control.
 
@@ -74,25 +74,28 @@ The Goal: Transform every junior operator into a Senior Specialist instantly by 
 *   Блокировка ошибок: Если оператор хочет совершить критическую ошибку (сброс звонка, грубость, отказ в законном возврате), бот выдает предупреждение: *«Стоп! Это нарушение регламента №5. Сделай вот так...»*.
 
 #### 4. 🧩 Бесшовная интеграция (Архитектура)
-*   Продукт проектируется как Overlay (Наложение) поверх рабочих окон CRM (Ozon, Cisco), чтобы оператору не приходилось переключаться между окнами.
+*   Продукт проектируется как Overlay (Наложение) поверх рабочих окон CRM (Azone, Cisco), чтобы оператору не приходилось переключаться между окнами.
 *   Ролевая модель: Разграничение прав доступа (Оператор / Тимлид / Админ).
 
 ### ⚙️ Установка и запуск прототипа
 
 1.  Клонируйте репозиторий:
+```  
+git clone https://github.com/hoodrichss/ai-call-center-assistant.git
+```
    
-    git clone https://github.com/hoodrichss/ai-call-center-assistant.git
-    
 2.  Установите зависимости:
+```
+   pip install -r requirements.txt
+```
    
-    pip install -r requirements.txt
-    
 3.  API Ключ:
     *   Получите ключ в Google AI Studio.
     *   Создайте файл .env и добавьте: GEMINI_API_KEY=ваш_ключ.
 4.  Запуск:
-   
-    python bot/gui.py
+```
+   python bot/gui.py
+```
     
 ### ⚠️ Важное примечание
 Проект использует API Google Gemini. В РФ для работы требуется VPN.

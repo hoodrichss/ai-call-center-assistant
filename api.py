@@ -42,8 +42,3 @@ class AIbrain:
             
         except Exception as e:
             return f"Ошибка нейросети: {e}"
-
-#только если запустить файл напрямую (для теста)
-if __name__ == "__main__":
-    brain = AIbrain()
-    print(brain.ask("Тестовый вопрос: завис cisco"))
